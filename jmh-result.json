@@ -1,0 +1,4404 @@
+[
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.BigMapReadBenchmark.const_shape_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 8.207378988971428,
+            "scoreError" : 0.14235447677222876,
+            "scoreConfidence" : [
+                8.0650245121992,
+                8.349733465743656
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8.075279226034265,
+                "50.0" : 8.225937305749188,
+                "90.0" : 8.343304038339591,
+                "95.0" : 8.346103327426313,
+                "99.0" : 8.346103327426313,
+                "99.9" : 8.346103327426313,
+                "99.99" : 8.346103327426313,
+                "99.999" : 8.346103327426313,
+                "99.9999" : 8.346103327426313,
+                "100.0" : 8.346103327426313
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    8.346103327426313,
+                    8.257030124959593,
+                    8.216550808579232,
+                    8.235323802919144,
+                    8.169057764541837,
+                    8.075279226034265,
+                    8.12297232795307,
+                    8.255000171326769,
+                    8.078361899414974,
+                    8.318110436559087
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.BigMapReadBenchmark.const_shape_map__geta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.061613196770452,
+            "scoreError" : 0.2467857517280433,
+            "scoreConfidence" : [
+                3.8148274450424084,
+                4.308398948498495
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.8507405331503644,
+                "50.0" : 3.996576527560009,
+                "90.0" : 4.26527115122502,
+                "95.0" : 4.266534078670618,
+                "99.0" : 4.266534078670618,
+                "99.9" : 4.266534078670618,
+                "99.99" : 4.266534078670618,
+                "99.999" : 4.266534078670618,
+                "99.9999" : 4.266534078670618,
+                "100.0" : 4.266534078670618
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.9742273984080305,
+                    3.9882911028906194,
+                    4.0048619522293984,
+                    3.9661350959745745,
+                    3.8507405331503644,
+                    3.8651517725900413,
+                    4.234117090850389,
+                    4.266534078670618,
+                    4.2539048042146455,
+                    4.212168138725829
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.BigMapReadBenchmark.const_shape_map_accessor__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.884080233387421,
+            "scoreError" : 0.08796982086734945,
+            "scoreConfidence" : [
+                3.7961104125200715,
+                3.9720500542547703
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.827358083918247,
+                "50.0" : 3.8674633572200414,
+                "90.0" : 3.9866932584205443,
+                "95.0" : 3.989883308834026,
+                "99.0" : 3.989883308834026,
+                "99.9" : 3.989883308834026,
+                "99.99" : 3.989883308834026,
+                "99.999" : 3.989883308834026,
+                "99.9999" : 3.989883308834026,
+                "100.0" : 3.989883308834026
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.989883308834026,
+                    3.921266831058178,
+                    3.9579828046992063,
+                    3.883486770280244,
+                    3.8330192955819267,
+                    3.827358083918247,
+                    3.8299246613043296,
+                    3.8387723465685393,
+                    3.9076682874696793,
+                    3.851439944159839
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.BigMapReadBenchmark.hash_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.496079007462253,
+            "scoreError" : 0.20815437579792012,
+            "scoreConfidence" : [
+                9.287924631664334,
+                9.704233383260172
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.24741450636981,
+                "50.0" : 9.524239673958249,
+                "90.0" : 9.69144554557809,
+                "95.0" : 9.698296413258255,
+                "99.0" : 9.698296413258255,
+                "99.9" : 9.698296413258255,
+                "99.99" : 9.698296413258255,
+                "99.999" : 9.698296413258255,
+                "99.9999" : 9.698296413258255,
+                "100.0" : 9.698296413258255
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.564171875632312,
+                    9.390980698106462,
+                    9.6297877364566,
+                    9.35406225798217,
+                    9.532538024466092,
+                    9.515941323450408,
+                    9.698296413258255,
+                    9.59060475441188,
+                    9.436992484488522,
+                    9.24741450636981
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.BigMapWriteBenchmark.const_shape_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.143977608779432,
+            "scoreError" : 0.1533964082997541,
+            "scoreConfidence" : [
+                8.990581200479678,
+                9.297374017079186
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.044251694526418,
+                "50.0" : 9.103010805876636,
+                "90.0" : 9.310219985448542,
+                "95.0" : 9.31197583406888,
+                "99.0" : 9.31197583406888,
+                "99.9" : 9.31197583406888,
+                "99.99" : 9.31197583406888,
+                "99.999" : 9.31197583406888,
+                "99.9999" : 9.31197583406888,
+                "100.0" : 9.31197583406888
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.294417347865501,
+                    9.235728245469081,
+                    9.155728353128804,
+                    9.066933019105996,
+                    9.31197583406888,
+                    9.084716467576833,
+                    9.044251694526418,
+                    9.064545278042246,
+                    9.060174703834129,
+                    9.12130514417644
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.BigMapWriteBenchmark.const_shape_map__puta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.853949215933068,
+            "scoreError" : 0.11865058701410171,
+            "scoreConfidence" : [
+                4.735298628918966,
+                4.97259980294717
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.793831617045221,
+                "50.0" : 4.815628315869041,
+                "90.0" : 5.022492221361818,
+                "95.0" : 5.030357762950385,
+                "99.0" : 5.030357762950385,
+                "99.9" : 5.030357762950385,
+                "99.99" : 5.030357762950385,
+                "99.999" : 5.030357762950385,
+                "99.9999" : 5.030357762950385,
+                "100.0" : 5.030357762950385
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.842862808670312,
+                    4.951702347064714,
+                    4.813184644479353,
+                    4.818071987258729,
+                    4.793831617045221,
+                    4.79731213916435,
+                    4.811056641478095,
+                    5.030357762950385,
+                    4.87705353871282,
+                    4.804058672506689
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.BigMapWriteBenchmark.const_shape_map__seta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.606524572544271,
+            "scoreError" : 0.17217890689850068,
+            "scoreConfidence" : [
+                4.43434566564577,
+                4.778703479442772
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.441176073103894,
+                "50.0" : 4.633126380700436,
+                "90.0" : 4.744752304272132,
+                "95.0" : 4.7452089296961715,
+                "99.0" : 4.7452089296961715,
+                "99.9" : 4.7452089296961715,
+                "99.99" : 4.7452089296961715,
+                "99.999" : 4.7452089296961715,
+                "99.9999" : 4.7452089296961715,
+                "100.0" : 4.7452089296961715
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.740642675455779,
+                    4.694437373022713,
+                    4.63912736274607,
+                    4.7452089296961715,
+                    4.627125398654803,
+                    4.683805978513704,
+                    4.488962280482227,
+                    4.529461576665358,
+                    4.4752980771019875,
+                    4.441176073103894
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.BigMapWriteBenchmark.const_shape_map_accessor__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.744655008982651,
+            "scoreError" : 0.23003970417377792,
+            "scoreConfidence" : [
+                4.514615304808873,
+                4.9746947131564285
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.616585201946773,
+                "50.0" : 4.711231109048191,
+                "90.0" : 5.116899841425744,
+                "95.0" : 5.157287616858401,
+                "99.0" : 5.157287616858401,
+                "99.9" : 5.157287616858401,
+                "99.99" : 5.157287616858401,
+                "99.999" : 5.157287616858401,
+                "99.9999" : 5.157287616858401,
+                "100.0" : 5.157287616858401
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.7534098625318295,
+                    4.744986085069829,
+                    4.724422404506117,
+                    4.6315279153561395,
+                    4.685450991044567,
+                    4.616585201946773,
+                    4.7424486808368504,
+                    4.692391518085735,
+                    5.157287616858401,
+                    4.698039813590264
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.BigMapWriteBenchmark.const_shape_map_accessor__set",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.623802426362647,
+            "scoreError" : 0.16278405821437475,
+            "scoreConfidence" : [
+                4.461018368148272,
+                4.786586484577022
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.432040218224718,
+                "50.0" : 4.662918455023223,
+                "90.0" : 4.771188428420272,
+                "95.0" : 4.779559829929918,
+                "99.0" : 4.779559829929918,
+                "99.9" : 4.779559829929918,
+                "99.99" : 4.779559829929918,
+                "99.999" : 4.779559829929918,
+                "99.9999" : 4.779559829929918,
+                "100.0" : 4.779559829929918
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.432040218224718,
+                    4.4637630518203695,
+                    4.557859913772681,
+                    4.654018658918,
+                    4.67204771850911,
+                    4.638301392975982,
+                    4.695845814833462,
+                    4.671818251128446,
+                    4.779559829929918,
+                    4.672769413513782
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.BigMapWriteBenchmark.hash_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 18.9755594067554,
+            "scoreError" : 0.1955913747188023,
+            "scoreConfidence" : [
+                18.7799680320366,
+                19.171150781474203
+            ],
+            "scorePercentiles" : {
+                "0.0" : 18.79999274951125,
+                "50.0" : 18.965628025179846,
+                "90.0" : 19.152584963937926,
+                "95.0" : 19.153138968400143,
+                "99.0" : 19.153138968400143,
+                "99.9" : 19.153138968400143,
+                "99.99" : 19.153138968400143,
+                "99.999" : 19.153138968400143,
+                "99.9999" : 19.153138968400143,
+                "100.0" : 19.153138968400143
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    18.79999274951125,
+                    18.985692666038528,
+                    19.14759892377797,
+                    19.03213174655784,
+                    18.85222448763952,
+                    19.097198506570678,
+                    18.907168628943232,
+                    18.94556338432117,
+                    19.153138968400143,
+                    18.834884005793736
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MapWithCollisionsReadBenchmark.const_shape_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 11.739343739152824,
+            "scoreError" : 1.1326543375631448,
+            "scoreConfidence" : [
+                10.60668940158968,
+                12.871998076715968
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.917282882107731,
+                "50.0" : 11.749567691924133,
+                "90.0" : 12.973303824546212,
+                "95.0" : 13.010807216027942,
+                "99.0" : 13.010807216027942,
+                "99.9" : 13.010807216027942,
+                "99.99" : 13.010807216027942,
+                "99.999" : 13.010807216027942,
+                "99.9999" : 13.010807216027942,
+                "100.0" : 13.010807216027942
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    12.635773301210639,
+                    12.328817017853295,
+                    11.941975331136224,
+                    11.804660225037244,
+                    11.694475158811022,
+                    13.010807216027942,
+                    11.076858816783687,
+                    10.917282882107731,
+                    10.95335536608568,
+                    11.029432076474786
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MapWithCollisionsReadBenchmark.const_shape_map__geta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.829489523269502,
+            "scoreError" : 0.06952696005393838,
+            "scoreConfidence" : [
+                3.7599625632155638,
+                3.8990164833234404
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.7736549630669787,
+                "50.0" : 3.8179943470147286,
+                "90.0" : 3.9136894462460234,
+                "95.0" : 3.9178167494564273,
+                "99.0" : 3.9178167494564273,
+                "99.9" : 3.9178167494564273,
+                "99.99" : 3.9178167494564273,
+                "99.999" : 3.9178167494564273,
+                "99.9999" : 3.9178167494564273,
+                "100.0" : 3.9178167494564273
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.8195815757390763,
+                    3.807367980231032,
+                    3.876543717352389,
+                    3.8164071182903814,
+                    3.7736549630669787,
+                    3.7946202446581583,
+                    3.7829725624100914,
+                    3.834799208877109,
+                    3.9178167494564273,
+                    3.8711311126133765
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MapWithCollisionsReadBenchmark.const_shape_map_accessor__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.8167089297502828,
+            "scoreError" : 0.031042122096137482,
+            "scoreConfidence" : [
+                3.7856668076541453,
+                3.84775105184642
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.7636600068127595,
+                "50.0" : 3.8225855708877816,
+                "90.0" : 3.834586412544815,
+                "95.0" : 3.834699685209876,
+                "99.0" : 3.834699685209876,
+                "99.9" : 3.834699685209876,
+                "99.99" : 3.834699685209876,
+                "99.999" : 3.834699685209876,
+                "99.9999" : 3.834699685209876,
+                "100.0" : 3.834699685209876
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.834699685209876,
+                    3.8278024409046143,
+                    3.823869304045916,
+                    3.8106424779534267,
+                    3.8213018377296475,
+                    3.7636600068127595,
+                    3.8335669585592673,
+                    3.824300217578582,
+                    3.807998375544677,
+                    3.819247993164063
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MapWithCollisionsReadBenchmark.hash_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.025780869755542,
+            "scoreError" : 0.15451839120142502,
+            "scoreConfidence" : [
+                8.871262478554117,
+                9.180299260956966
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8.873191022774975,
+                "50.0" : 9.00888673506168,
+                "90.0" : 9.168505850144136,
+                "95.0" : 9.171424948817773,
+                "99.0" : 9.171424948817773,
+                "99.9" : 9.171424948817773,
+                "99.99" : 9.171424948817773,
+                "99.999" : 9.171424948817773,
+                "99.9999" : 9.171424948817773,
+                "100.0" : 9.171424948817773
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.138167681229062,
+                    9.072299365898854,
+                    9.019276475407251,
+                    8.873191022774975,
+                    8.910857224043767,
+                    9.171424948817773,
+                    9.1422339620814,
+                    8.966742904164194,
+                    8.998496994716108,
+                    8.965118118422035
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MapWithCollisionsWriteBenchmark.const_shape_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 13.030643122441589,
+            "scoreError" : 0.5942218731829583,
+            "scoreConfidence" : [
+                12.43642124925863,
+                13.624864995624547
+            ],
+            "scorePercentiles" : {
+                "0.0" : 12.010293617519363,
+                "50.0" : 13.129669630762553,
+                "90.0" : 13.351160161326838,
+                "95.0" : 13.352356147991618,
+                "99.0" : 13.352356147991618,
+                "99.9" : 13.352356147991618,
+                "99.99" : 13.352356147991618,
+                "99.999" : 13.352356147991618,
+                "99.9999" : 13.352356147991618,
+                "100.0" : 13.352356147991618
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    13.239772020644713,
+                    13.352356147991618,
+                    13.079152213944957,
+                    13.093136608206507,
+                    13.34039628134382,
+                    13.011378926623467,
+                    13.166202653318598,
+                    13.206746756473986,
+                    12.806995998348874,
+                    12.010293617519363
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MapWithCollisionsWriteBenchmark.const_shape_map__puta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.812226454191916,
+            "scoreError" : 0.07338088602650207,
+            "scoreConfidence" : [
+                4.738845568165414,
+                4.885607340218418
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.7385779386512015,
+                "50.0" : 4.82114016220434,
+                "90.0" : 4.876319559908518,
+                "95.0" : 4.876812928134739,
+                "99.0" : 4.876812928134739,
+                "99.9" : 4.876812928134739,
+                "99.99" : 4.876812928134739,
+                "99.999" : 4.876812928134739,
+                "99.9999" : 4.876812928134739,
+                "100.0" : 4.876812928134739
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.793142613640094,
+                    4.83641910786956,
+                    4.876812928134739,
+                    4.837548663536777,
+                    4.841262270974921,
+                    4.750425971780827,
+                    4.7385779386512015,
+                    4.770334584919392,
+                    4.871879245872528,
+                    4.805861216539121
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MapWithCollisionsWriteBenchmark.const_shape_map__seta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.456023921753653,
+            "scoreError" : 0.0357549781464178,
+            "scoreConfidence" : [
+                4.420268943607235,
+                4.491778899900071
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.420483935674749,
+                "50.0" : 4.451256226026802,
+                "90.0" : 4.497530646218576,
+                "95.0" : 4.499588147124016,
+                "99.0" : 4.499588147124016,
+                "99.9" : 4.499588147124016,
+                "99.99" : 4.499588147124016,
+                "99.999" : 4.499588147124016,
+                "99.9999" : 4.499588147124016,
+                "100.0" : 4.499588147124016
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.420483935674749,
+                    4.479013138069614,
+                    4.455735385252201,
+                    4.434250368368357,
+                    4.4508911914730795,
+                    4.450258748547631,
+                    4.499588147124016,
+                    4.43956376157629,
+                    4.451621260580523,
+                    4.478833280870079
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MapWithCollisionsWriteBenchmark.const_shape_map_accessor__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.6923085415223555,
+            "scoreError" : 0.07137874916890939,
+            "scoreConfidence" : [
+                4.620929792353446,
+                4.763687290691265
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.626374133633407,
+                "50.0" : 4.6853240154577955,
+                "90.0" : 4.789830796778978,
+                "95.0" : 4.797420001236069,
+                "99.0" : 4.797420001236069,
+                "99.9" : 4.797420001236069,
+                "99.99" : 4.797420001236069,
+                "99.999" : 4.797420001236069,
+                "99.9999" : 4.797420001236069,
+                "100.0" : 4.797420001236069
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.691022531394154,
+                    4.797420001236069,
+                    4.678002051813584,
+                    4.712525771386605,
+                    4.658153892678929,
+                    4.626374133633407,
+                    4.679625499521437,
+                    4.721527956665163,
+                    4.7068437067882,
+                    4.651589870106012
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MapWithCollisionsWriteBenchmark.const_shape_map_accessor__set",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.492549778578102,
+            "scoreError" : 0.08321051826372027,
+            "scoreConfidence" : [
+                4.409339260314382,
+                4.575760296841822
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.4134496722739,
+                "50.0" : 4.49443212854537,
+                "90.0" : 4.5693653930770886,
+                "95.0" : 4.570191751099904,
+                "99.0" : 4.570191751099904,
+                "99.9" : 4.570191751099904,
+                "99.99" : 4.570191751099904,
+                "99.999" : 4.570191751099904,
+                "99.9999" : 4.570191751099904,
+                "100.0" : 4.570191751099904
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.561928170871742,
+                    4.570191751099904,
+                    4.479887238206506,
+                    4.525797728781954,
+                    4.456507513049133,
+                    4.508977018884233,
+                    4.4134496722739,
+                    4.531476717240566,
+                    4.4397549471381685,
+                    4.437527028234921
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MapWithCollisionsWriteBenchmark.hash_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 13.09315742099692,
+            "scoreError" : 0.2541527325391516,
+            "scoreConfidence" : [
+                12.839004688457768,
+                13.347310153536073
+            ],
+            "scorePercentiles" : {
+                "0.0" : 12.886424173815891,
+                "50.0" : 13.10919783013619,
+                "90.0" : 13.326222913272105,
+                "95.0" : 13.328769152554386,
+                "99.0" : 13.328769152554386,
+                "99.9" : 13.328769152554386,
+                "99.99" : 13.328769152554386,
+                "99.999" : 13.328769152554386,
+                "99.9999" : 13.328769152554386,
+                "100.0" : 13.328769152554386
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    12.925928108367538,
+                    13.303306759731571,
+                    13.208173246009787,
+                    13.039404944820006,
+                    12.886424173815891,
+                    12.903515804172311,
+                    12.968802624411332,
+                    13.328769152554386,
+                    13.178990715452375,
+                    13.188258680633991
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MediumMapReadBenchmark.const_shape_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.687971097970443,
+            "scoreError" : 0.48936213845919335,
+            "scoreConfidence" : [
+                9.19860895951125,
+                10.177333236429638
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.205064808584979,
+                "50.0" : 9.802657992503255,
+                "90.0" : 10.104023977115725,
+                "95.0" : 10.122768839169762,
+                "99.0" : 10.122768839169762,
+                "99.9" : 10.122768839169762,
+                "99.99" : 10.122768839169762,
+                "99.999" : 10.122768839169762,
+                "99.9999" : 10.122768839169762,
+                "100.0" : 10.122768839169762
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.779016982277017,
+                    9.76810061579467,
+                    9.93532021862939,
+                    9.856758645963776,
+                    10.122768839169762,
+                    9.826299002729492,
+                    9.861922999938646,
+                    9.30913601080607,
+                    9.215322855810637,
+                    9.205064808584979
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MediumMapReadBenchmark.const_shape_map__geta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.872570790465415,
+            "scoreError" : 0.07278694242540795,
+            "scoreConfidence" : [
+                3.799783848040007,
+                3.945357732890823
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.8122939564527183,
+                "50.0" : 3.869234533158952,
+                "90.0" : 3.9795189292526976,
+                "95.0" : 3.9890979755522897,
+                "99.0" : 3.9890979755522897,
+                "99.9" : 3.9890979755522897,
+                "99.99" : 3.9890979755522897,
+                "99.999" : 3.9890979755522897,
+                "99.9999" : 3.9890979755522897,
+                "100.0" : 3.9890979755522897
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.8660671074698945,
+                    3.8933075125563668,
+                    3.8552823994543313,
+                    3.8724019588480103,
+                    3.9890979755522897,
+                    3.8904540956676232,
+                    3.873173918548375,
+                    3.8122939564527183,
+                    3.8372270595327946,
+                    3.8364019205717454
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MediumMapReadBenchmark.const_shape_map_accessor__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.832281309669706,
+            "scoreError" : 0.08204438881566013,
+            "scoreConfidence" : [
+                3.7502369208540456,
+                3.9143256984853663
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.759044112959242,
+                "50.0" : 3.8233775012377116,
+                "90.0" : 3.956398755230252,
+                "95.0" : 3.966759162291054,
+                "99.0" : 3.966759162291054,
+                "99.9" : 3.966759162291054,
+                "99.99" : 3.966759162291054,
+                "99.999" : 3.966759162291054,
+                "99.9999" : 3.966759162291054,
+                "100.0" : 3.966759162291054
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.821310634137539,
+                    3.802209588809671,
+                    3.8631550916830357,
+                    3.8226044921128834,
+                    3.8026849427726215,
+                    3.826193749880621,
+                    3.759044112959242,
+                    3.966759162291054,
+                    3.8347008116878514,
+                    3.82415051036254
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MediumMapReadBenchmark.hash_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.867756496452145,
+            "scoreError" : 0.1380360729926917,
+            "scoreConfidence" : [
+                9.729720423459453,
+                10.005792569444838
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.745948362655183,
+                "50.0" : 9.862479674399385,
+                "90.0" : 10.038897765762862,
+                "95.0" : 10.049282034506879,
+                "99.0" : 10.049282034506879,
+                "99.9" : 10.049282034506879,
+                "99.99" : 10.049282034506879,
+                "99.999" : 10.049282034506879,
+                "99.9999" : 10.049282034506879,
+                "100.0" : 10.049282034506879
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.745948362655183,
+                    9.871787575278441,
+                    9.94543934706671,
+                    9.78622292215842,
+                    10.049282034506879,
+                    9.798872324048418,
+                    9.925159276802987,
+                    9.797396488907799,
+                    9.904284859576283,
+                    9.853171773520327
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MediumMapWriteBenchmark.const_shape_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 10.312062964457935,
+            "scoreError" : 0.510999558109349,
+            "scoreConfidence" : [
+                9.801063406348586,
+                10.823062522567284
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.089626555349502,
+                "50.0" : 10.184657911237245,
+                "90.0" : 11.139447457460422,
+                "95.0" : 11.220746598852402,
+                "99.0" : 11.220746598852402,
+                "99.9" : 11.220746598852402,
+                "99.99" : 11.220746598852402,
+                "99.999" : 11.220746598852402,
+                "99.9999" : 11.220746598852402,
+                "100.0" : 11.220746598852402
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    11.220746598852402,
+                    10.256614546941057,
+                    10.407755184932595,
+                    10.089626555349502,
+                    10.210376276090983,
+                    10.123351932842487,
+                    10.139861300315667,
+                    10.158939546383506,
+                    10.39002144350469,
+                    10.123336259366457
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MediumMapWriteBenchmark.const_shape_map__puta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.843891557234704,
+            "scoreError" : 0.0813997053860841,
+            "scoreConfidence" : [
+                4.76249185184862,
+                4.925291262620788
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.76976387537251,
+                "50.0" : 4.832605206045482,
+                "90.0" : 4.950149052491612,
+                "95.0" : 4.956753998751794,
+                "99.0" : 4.956753998751794,
+                "99.9" : 4.956753998751794,
+                "99.99" : 4.956753998751794,
+                "99.999" : 4.956753998751794,
+                "99.9999" : 4.956753998751794,
+                "100.0" : 4.956753998751794
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.808020239489358,
+                    4.833221511615809,
+                    4.822129288822541,
+                    4.799185593718609,
+                    4.956753998751794,
+                    4.76976387537251,
+                    4.8907045361499675,
+                    4.8845019460469175,
+                    4.8426456819043855,
+                    4.831988900475154
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MediumMapWriteBenchmark.const_shape_map__seta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.765654714183319,
+            "scoreError" : 0.36335373779759983,
+            "scoreConfidence" : [
+                4.402300976385719,
+                5.129008451980919
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.445659749699494,
+                "50.0" : 4.695398629466837,
+                "90.0" : 5.107033919471756,
+                "95.0" : 5.110648365834352,
+                "99.0" : 5.110648365834352,
+                "99.9" : 5.110648365834352,
+                "99.99" : 5.110648365834352,
+                "99.999" : 5.110648365834352,
+                "99.9999" : 5.110648365834352,
+                "100.0" : 5.110648365834352
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    5.008208405708506,
+                    5.074503902208399,
+                    4.900601811681869,
+                    5.110648365834352,
+                    4.7244022955381935,
+                    4.5676523663861675,
+                    4.632821526984278,
+                    4.525653754396449,
+                    4.666394963395481,
+                    4.445659749699494
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MediumMapWriteBenchmark.const_shape_map_accessor__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.698397479258502,
+            "scoreError" : 0.08032661822876845,
+            "scoreConfidence" : [
+                4.618070861029734,
+                4.77872409748727
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.615431731690586,
+                "50.0" : 4.688203858416852,
+                "90.0" : 4.766165479423186,
+                "95.0" : 4.7662312159175535,
+                "99.0" : 4.7662312159175535,
+                "99.9" : 4.7662312159175535,
+                "99.99" : 4.7662312159175535,
+                "99.999" : 4.7662312159175535,
+                "99.9999" : 4.7662312159175535,
+                "100.0" : 4.7662312159175535
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.686616138202857,
+                    4.7662312159175535,
+                    4.753218439331102,
+                    4.765573850973877,
+                    4.686122387499936,
+                    4.615431731690586,
+                    4.723035269563827,
+                    4.665532538870647,
+                    4.689791578630848,
+                    4.632421641903783
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MediumMapWriteBenchmark.const_shape_map_accessor__set",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.5013932528788505,
+            "scoreError" : 0.07393020390437303,
+            "scoreConfidence" : [
+                4.427463048974477,
+                4.575323456783224
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.439418056633629,
+                "50.0" : 4.506589939851322,
+                "90.0" : 4.589807131663632,
+                "95.0" : 4.594706583960222,
+                "99.0" : 4.594706583960222,
+                "99.9" : 4.594706583960222,
+                "99.99" : 4.594706583960222,
+                "99.999" : 4.594706583960222,
+                "99.9999" : 4.594706583960222,
+                "100.0" : 4.594706583960222
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.508677636664381,
+                    4.534294528534608,
+                    4.461673737996525,
+                    4.459716191636105,
+                    4.545712060994329,
+                    4.512977099892549,
+                    4.4522543894379005,
+                    4.594706583960222,
+                    4.439418056633629,
+                    4.504502243038263
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.MediumMapWriteBenchmark.hash_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 13.773167034174998,
+            "scoreError" : 0.2705497573043836,
+            "scoreConfidence" : [
+                13.502617276870614,
+                14.043716791479381
+            ],
+            "scorePercentiles" : {
+                "0.0" : 13.598444800945236,
+                "50.0" : 13.709217129372956,
+                "90.0" : 14.172412129597243,
+                "95.0" : 14.200098963008285,
+                "99.0" : 14.200098963008285,
+                "99.9" : 14.200098963008285,
+                "99.99" : 14.200098963008285,
+                "99.999" : 14.200098963008285,
+                "99.9999" : 14.200098963008285,
+                "100.0" : 14.200098963008285
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    13.63923381819271,
+                    13.759051969307247,
+                    13.71754308100941,
+                    13.84607889289253,
+                    13.923230628897858,
+                    13.598444800945236,
+                    13.698819681551962,
+                    13.648277328208218,
+                    13.700891177736501,
+                    14.200098963008285
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.SmallMapReadBenchmark.const_shape_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 7.922215844634957,
+            "scoreError" : 0.1037275284056657,
+            "scoreConfidence" : [
+                7.818488316229291,
+                8.025943373040622
+            ],
+            "scorePercentiles" : {
+                "0.0" : 7.840353433735267,
+                "50.0" : 7.919949440085562,
+                "90.0" : 8.04589883681584,
+                "95.0" : 8.052653880372201,
+                "99.0" : 8.052653880372201,
+                "99.9" : 8.052653880372201,
+                "99.99" : 8.052653880372201,
+                "99.999" : 8.052653880372201,
+                "99.9999" : 8.052653880372201,
+                "100.0" : 8.052653880372201
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    7.846278042082232,
+                    8.052653880372201,
+                    7.881498912734761,
+                    7.840353433735267,
+                    7.974744856796486,
+                    7.858492185380023,
+                    7.918833960731725,
+                    7.9431348102688695,
+                    7.985103444808601,
+                    7.921064919439398
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.SmallMapReadBenchmark.const_shape_map__geta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.8758047330529393,
+            "scoreError" : 0.08897388114032713,
+            "scoreConfidence" : [
+                3.786830851912612,
+                3.9647786141932664
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.7784765602205574,
+                "50.0" : 3.8617640664495525,
+                "90.0" : 3.9686382252898538,
+                "95.0" : 3.970456656808829,
+                "99.0" : 3.970456656808829,
+                "99.9" : 3.970456656808829,
+                "99.99" : 3.970456656808829,
+                "99.999" : 3.970456656808829,
+                "99.9999" : 3.970456656808829,
+                "100.0" : 3.970456656808829
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.7784765602205574,
+                    3.841880857654038,
+                    3.8886099718371563,
+                    3.970456656808829,
+                    3.8455729738656457,
+                    3.84134348082463,
+                    3.9221034840195323,
+                    3.9522723416190773,
+                    3.8779551590334593,
+                    3.8393758446464643
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.SmallMapReadBenchmark.const_shape_map_accessor__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.995528111650586,
+            "scoreError" : 0.24028656158376904,
+            "scoreConfidence" : [
+                3.755241550066817,
+                4.235814673234355
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.791553455283989,
+                "50.0" : 3.9702185318277494,
+                "90.0" : 4.275017282666889,
+                "95.0" : 4.276236714374429,
+                "99.0" : 4.276236714374429,
+                "99.9" : 4.276236714374429,
+                "99.99" : 4.276236714374429,
+                "99.999" : 4.276236714374429,
+                "99.9999" : 4.276236714374429,
+                "100.0" : 4.276236714374429
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.264042397299028,
+                    4.276236714374429,
+                    3.981783737301371,
+                    3.9701992667524753,
+                    4.014066660285345,
+                    3.9702377969030236,
+                    3.9280484285761528,
+                    3.9076013574320245,
+                    3.8515113022980256,
+                    3.791553455283989
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.SmallMapReadBenchmark.hash_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 8.220540665340184,
+            "scoreError" : 0.1040681044415065,
+            "scoreConfidence" : [
+                8.116472560898679,
+                8.32460876978169
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8.104797121353707,
+                "50.0" : 8.2179731178561,
+                "90.0" : 8.311525304613847,
+                "95.0" : 8.313686649619997,
+                "99.0" : 8.313686649619997,
+                "99.9" : 8.313686649619997,
+                "99.99" : 8.313686649619997,
+                "99.999" : 8.313686649619997,
+                "99.9999" : 8.313686649619997,
+                "100.0" : 8.313686649619997
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    8.264765031516028,
+                    8.284416991375627,
+                    8.104797121353707,
+                    8.29207319955848,
+                    8.203461126122734,
+                    8.156449833369813,
+                    8.216766438925776,
+                    8.149810464773278,
+                    8.219179796786426,
+                    8.313686649619997
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.SmallMapWriteBenchmark.const_shape_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.03754217595172,
+            "scoreError" : 0.17759528613471584,
+            "scoreConfidence" : [
+                8.859946889817003,
+                9.215137462086435
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8.877179344875941,
+                "50.0" : 9.04524575777128,
+                "90.0" : 9.279514003394965,
+                "95.0" : 9.298272594556023,
+                "99.0" : 9.298272594556023,
+                "99.9" : 9.298272594556023,
+                "99.99" : 9.298272594556023,
+                "99.999" : 9.298272594556023,
+                "99.9999" : 9.298272594556023,
+                "100.0" : 9.298272594556023
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.042237941931846,
+                    9.110686682945438,
+                    9.011307683684405,
+                    9.060712640193321,
+                    8.877179344875941,
+                    9.048253573610713,
+                    9.298272594556023,
+                    8.943465312912835,
+                    8.918446155181858,
+                    9.064859829624815
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.SmallMapWriteBenchmark.const_shape_map__puta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.8123350777119365,
+            "scoreError" : 0.07506330479877835,
+            "scoreConfidence" : [
+                4.737271772913158,
+                4.887398382510715
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.73574988310956,
+                "50.0" : 4.807778425323274,
+                "90.0" : 4.9018503563396605,
+                "95.0" : 4.906385507802231,
+                "99.0" : 4.906385507802231,
+                "99.9" : 4.906385507802231,
+                "99.99" : 4.906385507802231,
+                "99.999" : 4.906385507802231,
+                "99.9999" : 4.906385507802231,
+                "100.0" : 4.906385507802231
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.837380459899236,
+                    4.779945245241442,
+                    4.816542167099438,
+                    4.73574988310956,
+                    4.781553713240332,
+                    4.835318088159281,
+                    4.906385507802231,
+                    4.861033993176529,
+                    4.770427035844211,
+                    4.799014683547109
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.SmallMapWriteBenchmark.const_shape_map__seta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.4980078845504305,
+            "scoreError" : 0.02661482715021426,
+            "scoreConfidence" : [
+                4.471393057400216,
+                4.524622711700645
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.4710134643187125,
+                "50.0" : 4.4979938856536545,
+                "90.0" : 4.5264417348910015,
+                "95.0" : 4.527142157373716,
+                "99.0" : 4.527142157373716,
+                "99.9" : 4.527142157373716,
+                "99.99" : 4.527142157373716,
+                "99.999" : 4.527142157373716,
+                "99.9999" : 4.527142157373716,
+                "100.0" : 4.527142157373716
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.520137932546568,
+                    4.494545232228666,
+                    4.527142157373716,
+                    4.504586546819442,
+                    4.478740979235784,
+                    4.497942731765205,
+                    4.505422368129372,
+                    4.498045039542103,
+                    4.482502393544735,
+                    4.4710134643187125
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.SmallMapWriteBenchmark.const_shape_map_accessor__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.744792255480354,
+            "scoreError" : 0.0901347879449917,
+            "scoreConfidence" : [
+                4.654657467535362,
+                4.8349270434253455
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.646108980179416,
+                "50.0" : 4.745230763336847,
+                "90.0" : 4.822522647347116,
+                "95.0" : 4.82415978182701,
+                "99.0" : 4.82415978182701,
+                "99.9" : 4.82415978182701,
+                "99.99" : 4.82415978182701,
+                "99.999" : 4.82415978182701,
+                "99.9999" : 4.82415978182701,
+                "100.0" : 4.82415978182701
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.682832384509041,
+                    4.729371412922645,
+                    4.702415210328166,
+                    4.646108980179416,
+                    4.780714059218989,
+                    4.761090113751049,
+                    4.807788437028065,
+                    4.710514848071718,
+                    4.802927326967445,
+                    4.82415978182701
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.SmallMapWriteBenchmark.const_shape_map_accessor__set",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.612914572340644,
+            "scoreError" : 0.1889051239750893,
+            "scoreConfidence" : [
+                4.424009448365555,
+                4.801819696315733
+            ],
+            "scorePercentiles" : {
+                "0.0" : 4.442743381542889,
+                "50.0" : 4.603155636757037,
+                "90.0" : 4.830867083997951,
+                "95.0" : 4.837859928916458,
+                "99.0" : 4.837859928916458,
+                "99.9" : 4.837859928916458,
+                "99.99" : 4.837859928916458,
+                "99.999" : 4.837859928916458,
+                "99.9999" : 4.837859928916458,
+                "100.0" : 4.837859928916458
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.837859928916458,
+                    4.623436630537975,
+                    4.630251322899151,
+                    4.582874642976101,
+                    4.767931479731385,
+                    4.442743381542889,
+                    4.682176417090442,
+                    4.579652830074344,
+                    4.4871515538848215,
+                    4.495067535752875
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.constshapemap.SmallMapWriteBenchmark.hash_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 12.100762066947642,
+            "scoreError" : 0.10303762012091425,
+            "scoreConfidence" : [
+                11.997724446826727,
+                12.203799687068557
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.993510435686012,
+                "50.0" : 12.110155030610258,
+                "90.0" : 12.186831562201368,
+                "95.0" : 12.188639478932311,
+                "99.0" : 12.188639478932311,
+                "99.9" : 12.188639478932311,
+                "99.99" : 12.188639478932311,
+                "99.999" : 12.188639478932311,
+                "99.9999" : 12.188639478932311,
+                "100.0" : 12.188639478932311
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    12.06995931215153,
+                    11.993510435686012,
+                    12.188639478932311,
+                    12.137517352329457,
+                    12.032572913306595,
+                    12.164787995016662,
+                    12.170560311622884,
+                    12.083320796999642,
+                    12.02976280921044,
+                    12.136989264220874
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.BigMapReadBenchmark.hash_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.61607744481046,
+            "scoreError" : 0.3304184671530319,
+            "scoreConfidence" : [
+                9.285658977657427,
+                9.946495911963492
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.195169017715548,
+                "50.0" : 9.727609898347485,
+                "90.0" : 9.814364174001891,
+                "95.0" : 9.816986175232076,
+                "99.0" : 9.816986175232076,
+                "99.9" : 9.816986175232076,
+                "99.99" : 9.816986175232076,
+                "99.999" : 9.816986175232076,
+                "99.9999" : 9.816986175232076,
+                "100.0" : 9.816986175232076
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.816986175232076,
+                    9.790766162930225,
+                    9.7455968899786,
+                    9.71445833213268,
+                    9.740761464562292,
+                    9.769085894518334,
+                    9.428328119942712,
+                    9.331420954495362,
+                    9.628201436596774,
+                    9.195169017715548
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.BigMapReadBenchmark.shape_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 8.463924211200668,
+            "scoreError" : 0.15837723972239945,
+            "scoreConfidence" : [
+                8.305546971478268,
+                8.622301450923068
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8.312976853556814,
+                "50.0" : 8.46008043498915,
+                "90.0" : 8.660637163211616,
+                "95.0" : 8.673771946264988,
+                "99.0" : 8.673771946264988,
+                "99.9" : 8.673771946264988,
+                "99.99" : 8.673771946264988,
+                "99.999" : 8.673771946264988,
+                "99.9999" : 8.673771946264988,
+                "100.0" : 8.673771946264988
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    8.673771946264988,
+                    8.525472252081848,
+                    8.498093470391535,
+                    8.422067399586766,
+                    8.380421452415854,
+                    8.542424115731261,
+                    8.412389289418496,
+                    8.498524653048072,
+                    8.373100679511058,
+                    8.312976853556814
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.BigMapReadBenchmark.shape_map__geta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.854990347936409,
+            "scoreError" : 0.06393904276441731,
+            "scoreConfidence" : [
+                3.7910513051719916,
+                3.9189293907008262
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.788632515112578,
+                "50.0" : 3.8540254146430213,
+                "90.0" : 3.923034384107299,
+                "95.0" : 3.9261025827749,
+                "99.0" : 3.9261025827749,
+                "99.9" : 3.9261025827749,
+                "99.99" : 3.9261025827749,
+                "99.999" : 3.9261025827749,
+                "99.9999" : 3.9261025827749,
+                "100.0" : 3.9261025827749
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.884519771203193,
+                    3.822493680279811,
+                    3.849813895402747,
+                    3.895420596098891,
+                    3.9261025827749,
+                    3.872282040580417,
+                    3.8545980181798947,
+                    3.8534528111061475,
+                    3.788632515112578,
+                    3.802587568625509
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.BigMapReadBenchmark.shape_map_accessor__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.320506666192037,
+            "scoreError" : 0.24359570430875055,
+            "scoreConfidence" : [
+                4.076910961883286,
+                4.5641023705007875
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.956383557226552,
+                "50.0" : 4.340263743587488,
+                "90.0" : 4.532000868204844,
+                "95.0" : 4.538024856961037,
+                "99.0" : 4.538024856961037,
+                "99.9" : 4.538024856961037,
+                "99.99" : 4.538024856961037,
+                "99.999" : 4.538024856961037,
+                "99.9999" : 4.538024856961037,
+                "100.0" : 4.538024856961037
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.538024856961037,
+                    4.4777849693991,
+                    4.389519167985769,
+                    4.409258682895989,
+                    4.275653458699719,
+                    4.23919144448487,
+                    4.352050099156687,
+                    4.328477388018289,
+                    4.238723037092366,
+                    3.956383557226552
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.BigMapWriteBenchmark.hash_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 19.11883421231754,
+            "scoreError" : 0.8774738147987418,
+            "scoreConfidence" : [
+                18.2413603975188,
+                19.99630802711628
+            ],
+            "scorePercentiles" : {
+                "0.0" : 18.774224353692297,
+                "50.0" : 18.946612224633256,
+                "90.0" : 20.584916254800625,
+                "95.0" : 20.75115074683545,
+                "99.0" : 20.75115074683545,
+                "99.9" : 20.75115074683545,
+                "99.99" : 20.75115074683545,
+                "99.999" : 20.75115074683545,
+                "99.9999" : 20.75115074683545,
+                "100.0" : 20.75115074683545
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    20.75115074683545,
+                    18.93054450317579,
+                    18.894337102296653,
+                    19.088805826487185,
+                    18.99099228833043,
+                    18.774224353692297,
+                    18.911409594852724,
+                    18.96267994609072,
+                    18.853977718203268,
+                    19.03022004321087
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.BigMapWriteBenchmark.shape_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.711167900158456,
+            "scoreError" : 0.15394145133546253,
+            "scoreConfidence" : [
+                9.557226448822993,
+                9.865109351493919
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.554015088155454,
+                "50.0" : 9.72794638769184,
+                "90.0" : 9.882030066838524,
+                "95.0" : 9.889924977956717,
+                "99.0" : 9.889924977956717,
+                "99.9" : 9.889924977956717,
+                "99.99" : 9.889924977956717,
+                "99.999" : 9.889924977956717,
+                "99.9999" : 9.889924977956717,
+                "100.0" : 9.889924977956717
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.554015088155454,
+                    9.665848699615774,
+                    9.7205206872876,
+                    9.770180597080259,
+                    9.736980336813096,
+                    9.592577533961848,
+                    9.810975866774783,
+                    9.889924977956717,
+                    9.735372088096081,
+                    9.635283125842944
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.BigMapWriteBenchmark.shape_map__puta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6.0638167850965505,
+            "scoreError" : 0.11861498829881437,
+            "scoreConfidence" : [
+                5.945201796797736,
+                6.182431773395365
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.985850132440893,
+                "50.0" : 6.038063079323717,
+                "90.0" : 6.223068980999004,
+                "95.0" : 6.2292952311829,
+                "99.0" : 6.2292952311829,
+                "99.9" : 6.2292952311829,
+                "99.99" : 6.2292952311829,
+                "99.999" : 6.2292952311829,
+                "99.9999" : 6.2292952311829,
+                "100.0" : 6.2292952311829
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    6.019896696029641,
+                    6.018752644314467,
+                    5.985850132440893,
+                    5.995601874718842,
+                    6.033037250159021,
+                    6.043088908488412,
+                    6.2292952311829,
+                    6.167032729343942,
+                    6.096593218767086,
+                    6.049019165520291
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.BigMapWriteBenchmark.shape_map__seta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.7553897603678426,
+            "scoreError" : 0.09774507911214053,
+            "scoreConfidence" : [
+                5.657644681255702,
+                5.853134839479983
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.663480374902064,
+                "50.0" : 5.756548019086695,
+                "90.0" : 5.8418256339432055,
+                "95.0" : 5.842129519099584,
+                "99.0" : 5.842129519099584,
+                "99.9" : 5.842129519099584,
+                "99.99" : 5.842129519099584,
+                "99.999" : 5.842129519099584,
+                "99.9999" : 5.842129519099584,
+                "100.0" : 5.842129519099584
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    5.663480374902064,
+                    5.82519180287651,
+                    5.70230702117038,
+                    5.839090667535806,
+                    5.688105835628556,
+                    5.709666121053765,
+                    5.842129519099584,
+                    5.7633805148240365,
+                    5.749715523349355,
+                    5.770830223238361
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.BigMapWriteBenchmark.shape_map_accessor__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6.670372439395439,
+            "scoreError" : 0.47919326985808663,
+            "scoreConfidence" : [
+                6.191179169537352,
+                7.149565709253525
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.2265170944524195,
+                "50.0" : 6.707019484237096,
+                "90.0" : 7.127715811167166,
+                "95.0" : 7.140606687472338,
+                "99.0" : 7.140606687472338,
+                "99.9" : 7.140606687472338,
+                "99.99" : 7.140606687472338,
+                "99.999" : 7.140606687472338,
+                "99.9999" : 7.140606687472338,
+                "100.0" : 7.140606687472338
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    6.45557277735558,
+                    6.2265170944524195,
+                    6.306369900352942,
+                    6.402429871459085,
+                    6.739157607802399,
+                    6.674881360671793,
+                    6.999788466572191,
+                    7.140606687472338,
+                    6.746702703395025,
+                    7.011697924420621
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.BigMapWriteBenchmark.shape_map_accessor__set",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.663373729117263,
+            "scoreError" : 0.10521149639012513,
+            "scoreConfidence" : [
+                5.558162232727137,
+                5.768585225507388
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.574941519299542,
+                "50.0" : 5.686910143925948,
+                "90.0" : 5.779552865801923,
+                "95.0" : 5.787575898936361,
+                "99.0" : 5.787575898936361,
+                "99.9" : 5.787575898936361,
+                "99.99" : 5.787575898936361,
+                "99.999" : 5.787575898936361,
+                "99.9999" : 5.787575898936361,
+                "100.0" : 5.787575898936361
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    5.637947627834485,
+                    5.695762733854459,
+                    5.579777831676438,
+                    5.578289000294826,
+                    5.574941519299542,
+                    5.678057553997436,
+                    5.698269523368035,
+                    5.787575898936361,
+                    5.707345567591983,
+                    5.695770034319061
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MapWithCollisionsReadBenchmark.hash_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.05829350950293,
+            "scoreError" : 0.1429154903567576,
+            "scoreConfidence" : [
+                8.915378019146171,
+                9.201208999859688
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8.930720450574576,
+                "50.0" : 9.05362211886171,
+                "90.0" : 9.24464224465103,
+                "95.0" : 9.252162222510181,
+                "99.0" : 9.252162222510181,
+                "99.9" : 9.252162222510181,
+                "99.99" : 9.252162222510181,
+                "99.999" : 9.252162222510181,
+                "99.9999" : 9.252162222510181,
+                "100.0" : 9.252162222510181
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.176962443918672,
+                    8.930720450574576,
+                    9.060221760873917,
+                    9.061417404780888,
+                    9.002415778948627,
+                    9.069166356509642,
+                    8.982584992429166,
+                    9.00026120763413,
+                    9.252162222510181,
+                    9.047022476849504
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MapWithCollisionsReadBenchmark.shape_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 10.7830395236814,
+            "scoreError" : 0.18429826955607675,
+            "scoreConfidence" : [
+                10.598741254125322,
+                10.967337793237476
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.657427313243863,
+                "50.0" : 10.759353167892012,
+                "90.0" : 11.075358522938187,
+                "95.0" : 11.103556244129939,
+                "99.0" : 11.103556244129939,
+                "99.9" : 11.103556244129939,
+                "99.99" : 11.103556244129939,
+                "99.999" : 11.103556244129939,
+                "99.9999" : 11.103556244129939,
+                "100.0" : 11.103556244129939
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    10.657427313243863,
+                    11.103556244129939,
+                    10.784177386385556,
+                    10.789852041657728,
+                    10.72159517162052,
+                    10.821579032212425,
+                    10.719125473790342,
+                    10.714376237989606,
+                    10.758610119475055,
+                    10.760096216308968
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MapWithCollisionsReadBenchmark.shape_map__geta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.829088321472782,
+            "scoreError" : 0.04699488963997996,
+            "scoreConfidence" : [
+                3.782093431832802,
+                3.8760832111127623
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.787636246187156,
+                "50.0" : 3.8313351962315507,
+                "90.0" : 3.879741665026793,
+                "95.0" : 3.88055065296016,
+                "99.0" : 3.88055065296016,
+                "99.9" : 3.88055065296016,
+                "99.99" : 3.88055065296016,
+                "99.999" : 3.88055065296016,
+                "99.9999" : 3.88055065296016,
+                "100.0" : 3.88055065296016
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.8345675000906314,
+                    3.872460773626488,
+                    3.7885872739295556,
+                    3.8348979244653574,
+                    3.8049156725704876,
+                    3.8384802760801384,
+                    3.88055065296016,
+                    3.787636246187156,
+                    3.82810289237247,
+                    3.820684002445384
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MapWithCollisionsReadBenchmark.shape_map_accessor__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.006278946439984,
+            "scoreError" : 0.19786144325189844,
+            "scoreConfidence" : [
+                3.808417503188086,
+                4.204140389691883
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.811757215222667,
+                "50.0" : 4.033924670887071,
+                "90.0" : 4.197116530906418,
+                "95.0" : 4.206900477601719,
+                "99.0" : 4.206900477601719,
+                "99.9" : 4.206900477601719,
+                "99.99" : 4.206900477601719,
+                "99.999" : 4.206900477601719,
+                "99.9999" : 4.206900477601719,
+                "100.0" : 4.206900477601719
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.002776095165924,
+                    4.025463241382866,
+                    4.109061010648706,
+                    4.042386100391276,
+                    4.066038943144798,
+                    4.102532394704852,
+                    4.206900477601719,
+                    3.868353645058761,
+                    3.811757215222667,
+                    3.8275203410782694
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MapWithCollisionsWriteBenchmark.hash_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 14.523870932017147,
+            "scoreError" : 0.7008051296030062,
+            "scoreConfidence" : [
+                13.82306580241414,
+                15.224676061620153
+            ],
+            "scorePercentiles" : {
+                "0.0" : 13.345940262675724,
+                "50.0" : 14.6868797321228,
+                "90.0" : 14.858498767534027,
+                "95.0" : 14.86031162209256,
+                "99.0" : 14.86031162209256,
+                "99.9" : 14.86031162209256,
+                "99.99" : 14.86031162209256,
+                "99.999" : 14.86031162209256,
+                "99.9999" : 14.86031162209256,
+                "100.0" : 14.86031162209256
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    13.345940262675724,
+                    14.137145566149984,
+                    14.689923538458936,
+                    14.788471175075115,
+                    14.746842482984725,
+                    14.620479637508321,
+                    14.683835925786664,
+                    14.523576032932212,
+                    14.86031162209256,
+                    14.842183076507222
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MapWithCollisionsWriteBenchmark.shape_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 12.435426292775725,
+            "scoreError" : 0.1291657048583083,
+            "scoreConfidence" : [
+                12.306260587917416,
+                12.564591997634034
+            ],
+            "scorePercentiles" : {
+                "0.0" : 12.287615602373576,
+                "50.0" : 12.430781161724294,
+                "90.0" : 12.605622415247911,
+                "95.0" : 12.61873097279352,
+                "99.0" : 12.61873097279352,
+                "99.9" : 12.61873097279352,
+                "99.99" : 12.61873097279352,
+                "99.999" : 12.61873097279352,
+                "99.9999" : 12.61873097279352,
+                "100.0" : 12.61873097279352
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    12.487645397337428,
+                    12.427812050836346,
+                    12.287615602373576,
+                    12.455303901427651,
+                    12.352237750916236,
+                    12.61873097279352,
+                    12.432618970433936,
+                    12.437402174958683,
+                    12.425952753665229,
+                    12.42894335301465
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MapWithCollisionsWriteBenchmark.shape_map__puta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6.088751855668922,
+            "scoreError" : 0.07433390662003202,
+            "scoreConfidence" : [
+                6.01441794904889,
+                6.163085762288953
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.016382738910584,
+                "50.0" : 6.105409375397064,
+                "90.0" : 6.13858631163935,
+                "95.0" : 6.1387782886010545,
+                "99.0" : 6.1387782886010545,
+                "99.9" : 6.1387782886010545,
+                "99.99" : 6.1387782886010545,
+                "99.999" : 6.1387782886010545,
+                "99.9999" : 6.1387782886010545,
+                "100.0" : 6.1387782886010545
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    6.072285411485297,
+                    6.1387782886010545,
+                    6.136858518984005,
+                    6.029721397579697,
+                    6.127749510247421,
+                    6.10587095432588,
+                    6.024472561049721,
+                    6.016382738910584,
+                    6.104947796468248,
+                    6.130451379037312
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MapWithCollisionsWriteBenchmark.shape_map__seta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.758728870910553,
+            "scoreError" : 0.15895312021564875,
+            "scoreConfidence" : [
+                5.599775750694905,
+                5.9176819911262015
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.6584153314617796,
+                "50.0" : 5.720810505669737,
+                "90.0" : 6.0048626406355785,
+                "95.0" : 6.027649363981626,
+                "99.0" : 6.027649363981626,
+                "99.9" : 6.027649363981626,
+                "99.99" : 6.027649363981626,
+                "99.999" : 6.027649363981626,
+                "99.9999" : 6.027649363981626,
+                "100.0" : 6.027649363981626
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    5.799782130521148,
+                    5.6908628898858895,
+                    5.706188185782016,
+                    5.6584153314617796,
+                    5.78590243346275,
+                    6.027649363981626,
+                    5.720554923716972,
+                    5.69592089775994,
+                    5.721066087622502,
+                    5.780946464910906
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MapWithCollisionsWriteBenchmark.shape_map_accessor__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6.330455845940861,
+            "scoreError" : 0.03409231595285152,
+            "scoreConfidence" : [
+                6.296363529988009,
+                6.364548161893713
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.307589705133111,
+                "50.0" : 6.324639248004226,
+                "90.0" : 6.365743734652055,
+                "95.0" : 6.366098837757607,
+                "99.0" : 6.366098837757607,
+                "99.9" : 6.366098837757607,
+                "99.99" : 6.366098837757607,
+                "99.999" : 6.366098837757607,
+                "99.9999" : 6.366098837757607,
+                "100.0" : 6.366098837757607
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    6.322068691558326,
+                    6.366098837757607,
+                    6.341153208935755,
+                    6.36254780670208,
+                    6.327209804450127,
+                    6.307589705133111,
+                    6.347765738575032,
+                    6.312292967615836,
+                    6.30943898048566,
+                    6.3083927181950745
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MapWithCollisionsWriteBenchmark.shape_map_accessor__set",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.6333973323645425,
+            "scoreError" : 0.06802174241270734,
+            "scoreConfidence" : [
+                5.565375589951835,
+                5.70141907477725
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.561511564995865,
+                "50.0" : 5.638181234041365,
+                "90.0" : 5.685928178866735,
+                "95.0" : 5.686381530755122,
+                "99.0" : 5.686381530755122,
+                "99.9" : 5.686381530755122,
+                "99.99" : 5.686381530755122,
+                "99.999" : 5.686381530755122,
+                "99.9999" : 5.686381530755122,
+                "100.0" : 5.686381530755122
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    5.624923893110509,
+                    5.637079817020386,
+                    5.567797016536442,
+                    5.671775321530609,
+                    5.6001100153441135,
+                    5.686381530755122,
+                    5.66326350141878,
+                    5.639282651062344,
+                    5.68184801187125,
+                    5.561511564995865
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MediumMapReadBenchmark.hash_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 11.510949680364636,
+            "scoreError" : 0.5963692234430443,
+            "scoreConfidence" : [
+                10.914580456921591,
+                12.10731890380768
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.715449945495042,
+                "50.0" : 11.508988592217783,
+                "90.0" : 11.958840814728848,
+                "95.0" : 11.961354047487697,
+                "99.0" : 11.961354047487697,
+                "99.9" : 11.961354047487697,
+                "99.99" : 11.961354047487697,
+                "99.999" : 11.961354047487697,
+                "99.9999" : 11.961354047487697,
+                "100.0" : 11.961354047487697
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    11.686135149768608,
+                    11.961354047487697,
+                    11.852488317681447,
+                    11.425011316522568,
+                    11.936221719899212,
+                    11.52904838291344,
+                    11.488928801522125,
+                    11.480785741140117,
+                    11.034073381216118,
+                    10.715449945495042
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MediumMapReadBenchmark.shape_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.82109560017727,
+            "scoreError" : 0.12771519990795144,
+            "scoreConfidence" : [
+                9.693380400269318,
+                9.948810800085221
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.686758036847937,
+                "50.0" : 9.814558786499042,
+                "90.0" : 9.936945558966048,
+                "95.0" : 9.938325524217126,
+                "99.0" : 9.938325524217126,
+                "99.9" : 9.938325524217126,
+                "99.99" : 9.938325524217126,
+                "99.999" : 9.938325524217126,
+                "99.9999" : 9.938325524217126,
+                "100.0" : 9.938325524217126
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.686758036847937,
+                    9.720162409903184,
+                    9.837174154579564,
+                    9.938325524217126,
+                    9.924525871706345,
+                    9.772115848192417,
+                    9.7935764050994,
+                    9.802562829018015,
+                    9.909200178228637,
+                    9.82655474398007
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MediumMapReadBenchmark.shape_map__geta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.845325971636265,
+            "scoreError" : 0.0576193232655182,
+            "scoreConfidence" : [
+                3.787706648370747,
+                3.9029452949017833
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.776472926896302,
+                "50.0" : 3.8359597044623905,
+                "90.0" : 3.912903732350389,
+                "95.0" : 3.916332661704036,
+                "99.0" : 3.916332661704036,
+                "99.9" : 3.916332661704036,
+                "99.99" : 3.916332661704036,
+                "99.999" : 3.916332661704036,
+                "99.9999" : 3.916332661704036,
+                "100.0" : 3.916332661704036
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.86850223282385,
+                    3.83027375657096,
+                    3.776472926896302,
+                    3.8371939868380536,
+                    3.916332661704036,
+                    3.8820433681675635,
+                    3.8177891463572955,
+                    3.834725422086727,
+                    3.8339893104886014,
+                    3.8559369044292615
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MediumMapReadBenchmark.shape_map_accessor__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.821611583469828,
+            "scoreError" : 0.049803431009286254,
+            "scoreConfidence" : [
+                3.7718081524605416,
+                3.871415014479114
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.7747457100995274,
+                "50.0" : 3.8160277947776384,
+                "90.0" : 3.8733689095340895,
+                "95.0" : 3.87555041508729,
+                "99.0" : 3.87555041508729,
+                "99.9" : 3.87555041508729,
+                "99.99" : 3.87555041508729,
+                "99.999" : 3.87555041508729,
+                "99.9999" : 3.87555041508729,
+                "100.0" : 3.87555041508729
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.8109801800592487,
+                    3.8416097478437914,
+                    3.87555041508729,
+                    3.7747457100995274,
+                    3.8537353595552863,
+                    3.784733549985594,
+                    3.850253719664582,
+                    3.8126523538960893,
+                    3.819403235659188,
+                    3.792451562847678
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MediumMapWriteBenchmark.hash_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 13.730519654918876,
+            "scoreError" : 0.14804381313123885,
+            "scoreConfidence" : [
+                13.582475841787637,
+                13.878563468050114
+            ],
+            "scorePercentiles" : {
+                "0.0" : 13.602455779904291,
+                "50.0" : 13.718165462509102,
+                "90.0" : 13.902063162097507,
+                "95.0" : 13.908760588454761,
+                "99.0" : 13.908760588454761,
+                "99.9" : 13.908760588454761,
+                "99.99" : 13.908760588454761,
+                "99.999" : 13.908760588454761,
+                "99.9999" : 13.908760588454761,
+                "100.0" : 13.908760588454761
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    13.841786324882216,
+                    13.767401452481279,
+                    13.748184211172365,
+                    13.67701490354262,
+                    13.688146713845839,
+                    13.908760588454761,
+                    13.630710590571388,
+                    13.652363616016789,
+                    13.788372368317214,
+                    13.602455779904291
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MediumMapWriteBenchmark.shape_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 10.977428066356039,
+            "scoreError" : 0.18422220550387178,
+            "scoreConfidence" : [
+                10.793205860852167,
+                11.16165027185991
+            ],
+            "scorePercentiles" : {
+                "0.0" : 10.81370279476549,
+                "50.0" : 10.937312852717495,
+                "90.0" : 11.200741583419651,
+                "95.0" : 11.207384576283273,
+                "99.0" : 11.207384576283273,
+                "99.9" : 11.207384576283273,
+                "99.99" : 11.207384576283273,
+                "99.999" : 11.207384576283273,
+                "99.9999" : 11.207384576283273,
+                "100.0" : 11.207384576283273
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    10.935423959689935,
+                    10.81370279476549,
+                    10.8706940045037,
+                    11.024605891362876,
+                    11.018889601492761,
+                    10.91038296108447,
+                    11.207384576283273,
+                    10.913040480985767,
+                    10.939201745745056,
+                    11.140954647647062
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MediumMapWriteBenchmark.shape_map__puta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6.64548310930679,
+            "scoreError" : 0.41668097411088645,
+            "scoreConfidence" : [
+                6.228802135195903,
+                7.062164083417676
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.2276302410318465,
+                "50.0" : 6.767553794500316,
+                "90.0" : 6.94146157828066,
+                "95.0" : 6.9447694978828896,
+                "99.0" : 6.9447694978828896,
+                "99.9" : 6.9447694978828896,
+                "99.99" : 6.9447694978828896,
+                "99.999" : 6.9447694978828896,
+                "99.9999" : 6.9447694978828896,
+                "100.0" : 6.9447694978828896
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    6.9447694978828896,
+                    6.851883450259314,
+                    6.742842297649403,
+                    6.911690301860598,
+                    6.792265291351229,
+                    6.8017802414905555,
+                    6.595039945998444,
+                    6.302677578076238,
+                    6.2276302410318465,
+                    6.28425224746738
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MediumMapWriteBenchmark.shape_map__seta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.736699696649242,
+            "scoreError" : 0.19901232475156497,
+            "scoreConfidence" : [
+                5.537687371897677,
+                5.935712021400807
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.590158110311765,
+                "50.0" : 5.707745957403732,
+                "90.0" : 6.053029002401916,
+                "95.0" : 6.086088506061036,
+                "99.0" : 6.086088506061036,
+                "99.9" : 6.086088506061036,
+                "99.99" : 6.086088506061036,
+                "99.999" : 6.086088506061036,
+                "99.9999" : 6.086088506061036,
+                "100.0" : 6.086088506061036
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    5.678619694705175,
+                    5.734908426107619,
+                    6.086088506061036,
+                    5.719980210569144,
+                    5.755493469469843,
+                    5.695511704238321,
+                    5.746491978207459,
+                    5.67147186620163,
+                    5.688273000620433,
+                    5.590158110311765
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MediumMapWriteBenchmark.shape_map_accessor__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6.3112140228599864,
+            "scoreError" : 0.03689798106200256,
+            "scoreConfidence" : [
+                6.2743160417979835,
+                6.348112003921989
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.275580621105126,
+                "50.0" : 6.312640290335429,
+                "90.0" : 6.347522732208494,
+                "95.0" : 6.348981368568196,
+                "99.0" : 6.348981368568196,
+                "99.9" : 6.348981368568196,
+                "99.99" : 6.348981368568196,
+                "99.999" : 6.348981368568196,
+                "99.9999" : 6.348981368568196,
+                "100.0" : 6.348981368568196
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    6.320402788011372,
+                    6.281440052764331,
+                    6.292924740121735,
+                    6.348981368568196,
+                    6.298481277282114,
+                    6.275580621105126,
+                    6.33439500497118,
+                    6.320922033239871,
+                    6.304877792659484,
+                    6.33413454987646
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.MediumMapWriteBenchmark.shape_map_accessor__set",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.597080841370127,
+            "scoreError" : 0.05280490197290431,
+            "scoreConfidence" : [
+                5.544275939397223,
+                5.649885743343032
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.560715505444033,
+                "50.0" : 5.582090962626232,
+                "90.0" : 5.654721950135957,
+                "95.0" : 5.65708677217514,
+                "99.0" : 5.65708677217514,
+                "99.9" : 5.65708677217514,
+                "99.99" : 5.65708677217514,
+                "99.999" : 5.65708677217514,
+                "99.9999" : 5.65708677217514,
+                "100.0" : 5.65708677217514
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    5.570089953717136,
+                    5.563478338947533,
+                    5.633438551783302,
+                    5.560715505444033,
+                    5.588424886626011,
+                    5.575757038626453,
+                    5.630232545139811,
+                    5.620737474974959,
+                    5.570847346266894,
+                    5.65708677217514
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.SmallMapReadBenchmark.hash_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 8.19555205680232,
+            "scoreError" : 0.10853248469533774,
+            "scoreConfidence" : [
+                8.087019572106982,
+                8.304084541497659
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8.054123563444298,
+                "50.0" : 8.187870017187716,
+                "90.0" : 8.295946584067055,
+                "95.0" : 8.29729654845373,
+                "99.0" : 8.29729654845373,
+                "99.9" : 8.29729654845373,
+                "99.99" : 8.29729654845373,
+                "99.999" : 8.29729654845373,
+                "99.9999" : 8.29729654845373,
+                "100.0" : 8.29729654845373
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    8.193868296003195,
+                    8.29729654845373,
+                    8.283796904586985,
+                    8.228491627141791,
+                    8.181871738372235,
+                    8.157104947208099,
+                    8.179399289395322,
+                    8.054123563444298,
+                    8.240573976214955,
+                    8.138993677202587
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.SmallMapReadBenchmark.shape_map__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 8.681478762587398,
+            "scoreError" : 0.49839920896080514,
+            "scoreConfidence" : [
+                8.183079553626593,
+                9.179877971548203
+            ],
+            "scorePercentiles" : {
+                "0.0" : 8.325409205418485,
+                "50.0" : 8.529836890378162,
+                "90.0" : 9.091406279728155,
+                "95.0" : 9.094735743222415,
+                "99.0" : 9.094735743222415,
+                "99.9" : 9.094735743222415,
+                "99.99" : 9.094735743222415,
+                "99.999" : 9.094735743222415,
+                "99.9999" : 9.094735743222415,
+                "100.0" : 9.094735743222415
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    8.354853701871594,
+                    8.539253576498542,
+                    8.520420204257782,
+                    8.325409205418485,
+                    8.437001810666214,
+                    8.41132429952542,
+                    9.04820577617656,
+                    9.022142199957157,
+                    9.094735743222415,
+                    9.061441108279816
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.SmallMapReadBenchmark.shape_map__geta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 4.140103319302671,
+            "scoreError" : 0.3517496750044383,
+            "scoreConfidence" : [
+                3.788353644298233,
+                4.491852994307109
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.890233418998591,
+                "50.0" : 4.027118098895675,
+                "90.0" : 4.438264628733691,
+                "95.0" : 4.4411751484776945,
+                "99.0" : 4.4411751484776945,
+                "99.9" : 4.4411751484776945,
+                "99.99" : 4.4411751484776945,
+                "99.999" : 4.4411751484776945,
+                "99.9999" : 4.4411751484776945,
+                "100.0" : 4.4411751484776945
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    4.412069951037662,
+                    4.385086041900373,
+                    4.382279880426389,
+                    4.4411751484776945,
+                    4.02582221293674,
+                    3.9432466213965225,
+                    3.978772121509903,
+                    4.028413984854611,
+                    3.9139338114882363,
+                    3.890233418998591
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.SmallMapReadBenchmark.shape_map_accessor__get",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 3.9298109962486896,
+            "scoreError" : 0.1996328775602213,
+            "scoreConfidence" : [
+                3.7301781186884684,
+                4.129443873808911
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.7841010716174877,
+                "50.0" : 3.8663275747020416,
+                "90.0" : 4.118188515660142,
+                "95.0" : 4.119630611131929,
+                "99.0" : 4.119630611131929,
+                "99.9" : 4.119630611131929,
+                "99.99" : 4.119630611131929,
+                "99.999" : 4.119630611131929,
+                "99.9999" : 4.119630611131929,
+                "100.0" : 4.119630611131929
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.8794378813283785,
+                    3.838129355306733,
+                    3.7941963292512684,
+                    3.853217268075705,
+                    3.8419030322623184,
+                    3.7841010716174877,
+                    4.06539935148595,
+                    4.105209656414061,
+                    4.119630611131929,
+                    4.016885405613069
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.SmallMapWriteBenchmark.hash_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 12.049457991027767,
+            "scoreError" : 0.17008346518557868,
+            "scoreConfidence" : [
+                11.879374525842188,
+                12.219541456213346
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.866652672949268,
+                "50.0" : 12.065172260925225,
+                "90.0" : 12.222112597092618,
+                "95.0" : 12.231413174491923,
+                "99.0" : 12.231413174491923,
+                "99.9" : 12.231413174491923,
+                "99.99" : 12.231413174491923,
+                "99.999" : 12.231413174491923,
+                "99.9999" : 12.231413174491923,
+                "100.0" : 12.231413174491923
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    12.00931315766422,
+                    11.941956578652052,
+                    11.930577671936106,
+                    12.138407400498869,
+                    12.05066430708273,
+                    11.866652672949268,
+                    12.231413174491923,
+                    12.07968021476772,
+                    12.137928809860915,
+                    12.107985922373866
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.SmallMapWriteBenchmark.shape_map__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 9.56664387828556,
+            "scoreError" : 0.13047500960810787,
+            "scoreConfidence" : [
+                9.436168868677452,
+                9.69711888789367
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.413191990425524,
+                "50.0" : 9.559891205429118,
+                "90.0" : 9.700770940638629,
+                "95.0" : 9.707413006914958,
+                "99.0" : 9.707413006914958,
+                "99.9" : 9.707413006914958,
+                "99.99" : 9.707413006914958,
+                "99.999" : 9.707413006914958,
+                "99.9999" : 9.707413006914958,
+                "100.0" : 9.707413006914958
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    9.563612709094734,
+                    9.509465340284557,
+                    9.640992344151668,
+                    9.707413006914958,
+                    9.5561697017635,
+                    9.625984250084793,
+                    9.413191990425524,
+                    9.62470876521423,
+                    9.543953396634391,
+                    9.48094727828725
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.SmallMapWriteBenchmark.shape_map__puta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6.062890705237846,
+            "scoreError" : 0.10668469126621141,
+            "scoreConfidence" : [
+                5.956206013971634,
+                6.169575396504058
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.95967142625779,
+                "50.0" : 6.068164902919732,
+                "90.0" : 6.196287860269682,
+                "95.0" : 6.2053397498026674,
+                "99.0" : 6.2053397498026674,
+                "99.9" : 6.2053397498026674,
+                "99.99" : 6.2053397498026674,
+                "99.999" : 6.2053397498026674,
+                "99.9999" : 6.2053397498026674,
+                "100.0" : 6.2053397498026674
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    6.114820854472811,
+                    6.087892374208724,
+                    6.061362391012152,
+                    6.2053397498026674,
+                    5.995269655557018,
+                    6.040926799036721,
+                    6.074967414827312,
+                    5.996083675365121,
+                    5.95967142625779,
+                    6.092572711838143
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.SmallMapWriteBenchmark.shape_map__seta",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.721116550903533,
+            "scoreError" : 0.07452959761709178,
+            "scoreConfidence" : [
+                5.646586953286441,
+                5.795646148520625
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.642754703692358,
+                "50.0" : 5.730471534546835,
+                "90.0" : 5.784495377630513,
+                "95.0" : 5.784569143484297,
+                "99.0" : 5.784569143484297,
+                "99.9" : 5.784569143484297,
+                "99.99" : 5.784569143484297,
+                "99.999" : 5.784569143484297,
+                "99.9999" : 5.784569143484297,
+                "100.0" : 5.784569143484297
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    5.727041179955277,
+                    5.733901889138392,
+                    5.765539097242806,
+                    5.6706150195135985,
+                    5.783831484946462,
+                    5.642754703692358,
+                    5.784569143484297,
+                    5.677205006659481,
+                    5.73503984231444,
+                    5.690668142088214
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.SmallMapWriteBenchmark.shape_map_accessor__put",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 6.596901216221019,
+            "scoreError" : 0.41663223102339336,
+            "scoreConfidence" : [
+                6.180268985197626,
+                7.013533447244412
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.302916289275245,
+                "50.0" : 6.534077032793384,
+                "90.0" : 7.062170602518706,
+                "95.0" : 7.066285814131458,
+                "99.0" : 7.066285814131458,
+                "99.9" : 7.066285814131458,
+                "99.99" : 7.066285814131458,
+                "99.999" : 7.066285814131458,
+                "99.9999" : 7.066285814131458,
+                "100.0" : 7.066285814131458
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    7.02513369800394,
+                    7.066285814131458,
+                    6.48834492327789,
+                    6.644947491164652,
+                    6.735189843590535,
+                    6.579809142308877,
+                    6.346293425560538,
+                    6.465735201162461,
+                    6.314356333734608,
+                    6.302916289275245
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.19",
+        "benchmark" : "com.twineworks.collections.shapemap.SmallMapWriteBenchmark.shape_map_accessor__set",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/bin/java",
+        "jvmArgs" : [
+        ],
+        "jdkVersion" : "1.8.0_131",
+        "vmVersion" : "25.131-b11",
+        "warmupIterations" : 10,
+        "warmupTime" : "1 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 10,
+        "measurementTime" : "1 s",
+        "measurementBatchSize" : 1,
+        "primaryMetric" : {
+            "score" : 5.659974268000021,
+            "scoreError" : 0.19575997343611556,
+            "scoreConfidence" : [
+                5.464214294563906,
+                5.855734241436137
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.558042386518665,
+                "50.0" : 5.60957648795288,
+                "90.0" : 5.963541708714439,
+                "95.0" : 5.986053879679575,
+                "99.0" : 5.986053879679575,
+                "99.9" : 5.986053879679575,
+                "99.99" : 5.986053879679575,
+                "99.999" : 5.986053879679575,
+                "99.9999" : 5.986053879679575,
+                "100.0" : 5.986053879679575
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    5.673558756204181,
+                    5.576647546932721,
+                    5.6072785748533915,
+                    5.583864571528357,
+                    5.582709009259351,
+                    5.558042386518665,
+                    5.986053879679575,
+                    5.760932170028217,
+                    5.658781383943385,
+                    5.6118744010523685
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
